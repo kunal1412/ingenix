@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inginex - AI Solutions</title>
-  <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- For Icons -->
+  <link rel="stylesheet" href="style.css"> <!-- Link to External CSS -->
 </head>
 <body>
   <!-- Header Section -->
@@ -14,41 +14,55 @@
       <div class="logo">Inginex</div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <a href="#enterprise">Enterprise <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#customers">Customers</a></li>
+            <li><a href="#view-more">View More</a></li>
+          </ul>
+        </li>
         <li><a href="#solutions">Solutions</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#login">Login</a></li>
       </ul>
       <button class="cta-button">Get Started</button>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Revolutionize Your Business with AI</h1>
-      <p>Inginex provides cutting-edge AI solutions to help you automate, optimize, and grow.</p>
-      <button class="cta-button">Explore Solutions</button>
-    </div>
-    <div class="hero-image">
-      <img src="assets/ai-hero.png" alt="AI Solutions">
-    </div>
-  </section>
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Revolutionize Your Business with AI</h1>
+    <p>Inginex provides cutting-edge AI solutions to help you automate, optimize, and grow.</p>
+    <button class="cta-button">Explore Solutions</button>
+  </div>
+  <div class="hero-images">
+    <img src="https://www.istockphoto.com/photo/ai-data-analysis-business-people-use-ai-to-analyze-financial-related-data-big-data-gm2012883461-560932261?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=ai" alt="AI Solution 1" class="hero-image">
+    <img src="https://www.istockphoto.com/en/photo/ai-chatbot-artificial-intelligence-digital-concept-gm1494104649-517566292" alt="AI Solution 2" class="hero-image">
+    <img src="https://www.istockphoto.com/en/photo/artificial-chat-chat-with-ai-or-artificial-intelligence-digital-chatbot-robot-gm1462024468-495725211" alt="AI Solution 3" class="hero-image">
+    <!-- <img src="image4.jpg" alt="AI Solution 4" class="hero-image">
+    <img src="image5.jpg" alt="AI Solution 5" class="hero-image"> -->
+  </div>
+</section>
+
 
   <!-- Solutions Section -->
   <section id="solutions" class="solutions">
     <h2>Our AI Solutions</h2>
     <div class="solution-cards">
-      <div class="card">
+      <div class="card card-1">
         <i class="fas fa-robot"></i>
         <h3>AI Automation</h3>
         <p>Automate repetitive tasks and boost efficiency with our AI-powered tools.</p>
       </div>
-      <div class="card">
+      <div class="card card-2">
         <i class="fas fa-brain"></i>
         <h3>Machine Learning</h3>
         <p>Leverage advanced ML algorithms to make data-driven decisions.</p>
       </div>
-      <div class="card">
+      <div class="card card-3">
         <i class="fas fa-chart-line"></i>
         <h3>Predictive Analytics</h3>
         <p>Predict future trends and optimize your strategies with our analytics solutions.</p>
